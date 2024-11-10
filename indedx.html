@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dailygo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="login">
+        <div class="credentials login">
+            <form>
+                <label for="emailid">Email address</label>
+                <input type="email" id="emailid" name="emailid" placeholder="Enter Email adress">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" placeholder="Enter password">
+                <button type="submit" class="button">Login</button><br>
+                <p>or</p>
+                <button type="button" class="button">Signup</button>
+            </form>
+        </div>
+    </div>
+    <div class="signup" id="signup-section" style="display: none;">
+        <h2>Signup</h2>
+        <form id="signup-form">
+            <label for="first-name">First Name</label>
+            <input type="text" id="first-name" name="first_name" placeholder="Enter First Name" required>
+
+            <label for="last-name">Last Name</label>
+            <input type="text" id="last-name" name="last_name" placeholder="Enter Last Name" required>
+
+            <label for="signup-email">Email address</label>
+            <input type="email" id="signup-email" name="email" placeholder="Enter Email address" required>
+
+            <label for="signup-password">Password</label>
+            <input type="password" id="signup-password" name="password" placeholder="Enter Password" required>
+
+            <label for="confirm-password">Confirm Password</label>
+            <input type="password" id="confirm-password" name="confirm_password" placeholder="Confirm Password" required>
+
+            <button type="submit" class="button">Signup</button>
+            <p>or</p>
+
+            <!-- Button to Switch to Login Form -->
+            <button type="button" class="button" id="go-to-login">Go to Login</button>
+        </form>
+    </div>
+</div>
+</body>
+</html>
